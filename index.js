@@ -59,8 +59,8 @@ musette
 
 			if (complete) {
 				console.log(chalk.green('All done!'));
-			}
-		} catch (error) {
+				}
+			} catch (error) {
 			if (error) {
 				switch (error.status) {
 					case 401: 
